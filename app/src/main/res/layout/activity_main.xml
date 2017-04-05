@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView"
+        android:text="                          +"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:textColor="@android:color/holo_green_light"
+        android:textSize="50sp"
+        android:onClick="new_alarm"
+         />
+
+    <ListView
+        android:id="@+id/list_clock"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+    <ListView
+        android:id="@+id/search"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+</LinearLayout>
